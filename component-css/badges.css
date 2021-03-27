@@ -236,31 +236,13 @@
 
 }
 
-.content-box .introduction , .input-component-container {
+.content-box .introduction , .badge-component-container {
     font-size: 1.55rem;
     padding: 1.2rem;
     width: inherit;
 }
 
-
-.content-box  .iframe-section{
-    padding: 0.9rem 0rem 0.9rem 0rem;
-    width: inherit;
-}
-.content-box  .iframe-section > iframe{
-    max-width: 100%;
-    overflow-x: auto;
-}
-
-.content-box .sub-heading-1,.sub-heading-2,.sub-heading-3,.sub-heading-4{
-    max-width: 100%;
-    font-size: 2.2rem;
-    color: var(--main-primary-color);
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
-}
-
-.content-box .input-component-container .input-container{
+.content-box .badge-component-container .badge-container{
     padding: 1rem;
     margin: 1rem 0rem 1rem 0rem;
     background-color: transparent;
@@ -277,105 +259,124 @@
     font-weight: 500;
  }
 
- .content-box .input{
-    /* padding: 1.5rem; */
-     margin: 1.2rem;
-     
-     font-family: var(--main-primary-color);
-     min-width: 100px;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
- }
-.content-box .input .form-control{
-   padding: 1rem;
-   font-size: 1.2rem;
-   border-radius: 10px;
-   outline: var(--main-primary-color);
-   background-color: #e1f1fd;
-   border: none;
+.content-box  .iframe-section{
+    padding: 0.9rem 0rem 0.9rem 0rem;
+    width: inherit;
 }
-.sub-heading-3{
-    font-size: 1.8rem;
-}
-
-/*                                       TYPES OF INPUTS                                     */
-
-.content-box .input-types{
-    font-family: var(--main-font);
-}
-.content-box .input-types .input-introduction-text{
-    padding: 0.3rem 0.3rem 0.3rem 0.8rem;
-    font-size: 1.6rem;
-}
-
-/*                                  SEARCH INPUT                   */
-.content-box .input-types .search-input{
-    position: relative;
-    width: 15rem;
-}
-.content-box .input-types .search-input input{
+.content-box  .iframe-section > iframe{
     max-width: 100%;
-}
-.content-box .input-types .search-input .search-icon{
-     position: absolute;
-    top: 0px;
-    right: 0px;
-    padding: 1rem;
-    font-size: 1.3rem;
-    cursor: pointer;
+    overflow-x: auto;
 }
 
-/*                                     EMAIL-INPUT                       */
-.content-box .input-types .email-input{
-    position: relative;
-    width: 18rem;
-}
-.content-box .input-types .email-input input{
+
+.content-box .sub-heading-1,.sub-heading-2,.sub-heading-3,.sub-heading-4{
     max-width: 100%;
-    padding-left: 4rem;
-}
-.content-box .input-types .email-input .email-icon{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    padding: 1rem;
-    font-size: 1.3rem;
-    cursor: pointer;
+    font-size: 2.2rem;
+    color: var(--main-primary-color);
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
 }
 
-/*                                 CHECKBOX-INPUT                            */
 
-.checkbox-1,.checkbox-2,.checkbox-3{
+.badge{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: inherit;
+    padding: 0.8rem;
 }
 
-.checkbox-1 > input{
- width: 1rem;
- height: 1rem;
-}
-.checkbox-2 > input{
-    width: 1rem;
-    height: 1rem;
-}
-.checkbox-3 > input{
-    width: 1rem;
-    height: 1rem;
+.online-profile-image,.offline-profile-image,.dnd-profile-image{
+    position: relative;
 }
 
-.checkbox-1 label,.checkbox-2 label,.checkbox-3 label{
-    padding-left: 0.5rem;
+.avtar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 0.7rem;
+}
+
+.online-profile,.offline-profile,.dnd-profile{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--success-hover);
+    position: absolute;
+    bottom: 18px;
+    right: 13px;
+    border:2px solid white;
+}
+
+.offline-profile{
+    background-color: var(--secondary);
+}
+
+.dnd-profile{
+    background-color: var(--danger);
+}
+
+.badge-1,.badge-2,.badge-3,.badge-4,.badge-5{
+    position: relative;
     color: var(--main-primary-color);
+    cursor: pointer;
+}
+/*                         Shopping Badges                  */
+.cart-quantity{
+    position: absolute;
+    top: -22px;
+    right: -12px;
+    color: var(--banner-text-color);
+}
+
+.reward-quantity{
+    position: absolute;
+    top: -22px;
+    right: -21px;
+    color: var(--banner-text-color);
+}
+
+/*                        Social Badges                         */
+
+.notification-quantity{
+    position: absolute;
+    top: -13px;
+    right: -7px;
+    color: var(--banner-text-color);
+    font-size: 1rem;
+}
+.request-quantity{
+    position: absolute;
+    top: -12px;
+    right: -9px;
+    color: var(--banner-text-color);
+    font-size: 1rem;
+}
+.like-quantity{
+    position: absolute;
+    top: -12px;
+    right: -17px;
+    color: var(--banner-text-color);
+    font-size: 1rem;
+}
+.comments-quantity{
+    position: absolute;
+    top: -12px;
+    right: -17px;
+    color: var(--banner-text-color);
+    font-size: 1rem;
+}
+.saved-quantity{
+    position: absolute;
+    top: -15px ;
+    right: -18px;
+    color: var(--banner-text-color);
+    font-size: 1rem;
 }
 
 
 
-
-
-
- /*                    NAVIGATE                       */
+ /*                                  NAVIGATE                                     */
  .navigate{
     display: flex;
     justify-content: space-between;

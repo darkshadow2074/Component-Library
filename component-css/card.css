@@ -236,37 +236,19 @@
 
 }
 
-.content-box .introduction , .input-component-container {
+.content-box .introduction , .card-component-container {
     font-size: 1.55rem;
     padding: 1.2rem;
     width: inherit;
 }
 
-
-.content-box  .iframe-section{
-    padding: 0.9rem 0rem 0.9rem 0rem;
-    width: inherit;
-}
-.content-box  .iframe-section > iframe{
-    max-width: 100%;
-    overflow-x: auto;
-}
-
-.content-box .sub-heading-1,.sub-heading-2,.sub-heading-3,.sub-heading-4{
-    max-width: 100%;
-    font-size: 2.2rem;
-    color: var(--main-primary-color);
-    padding-top: 1rem;
-    padding-bottom: 0.5rem;
-}
-
-.content-box .input-component-container .input-container{
-    padding: 1rem;
+ .card-container{
+    padding: 1.3rem;
     margin: 1rem 0rem 1rem 0rem;
     background-color: transparent;
     width: 100%;
     border: 1px solid rgb(20, 19, 19);
-     border-radius: 0.4rem;
+    border-radius: 0.4rem;
 }
 
 .content-box .introduction-text{
@@ -277,105 +259,91 @@
     font-weight: 500;
  }
 
- .content-box .input{
-    /* padding: 1.5rem; */
-     margin: 1.2rem;
-     
-     font-family: var(--main-primary-color);
-     min-width: 100px;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
- }
-.content-box .input .form-control{
-   padding: 1rem;
-   font-size: 1.2rem;
-   border-radius: 10px;
-   outline: var(--main-primary-color);
-   background-color: #e1f1fd;
-   border: none;
+.content-box  .iframe-section{
+    padding: 0.9rem 0rem 0.9rem 0rem;
+    width: inherit;
 }
-.sub-heading-3{
-    font-size: 1.8rem;
-}
-
-/*                                       TYPES OF INPUTS                                     */
-
-.content-box .input-types{
-    font-family: var(--main-font);
-}
-.content-box .input-types .input-introduction-text{
-    padding: 0.3rem 0.3rem 0.3rem 0.8rem;
-    font-size: 1.6rem;
-}
-
-/*                                  SEARCH INPUT                   */
-.content-box .input-types .search-input{
-    position: relative;
-    width: 15rem;
-}
-.content-box .input-types .search-input input{
+.content-box  .iframe-section > iframe{
     max-width: 100%;
-}
-.content-box .input-types .search-input .search-icon{
-     position: absolute;
-    top: 0px;
-    right: 0px;
-    padding: 1rem;
-    font-size: 1.3rem;
-    cursor: pointer;
+    overflow-x: auto;
 }
 
-/*                                     EMAIL-INPUT                       */
-.content-box .input-types .email-input{
-    position: relative;
-    width: 18rem;
-}
-.content-box .input-types .email-input input{
+
+.content-box .sub-heading-1,.sub-heading-2,.sub-heading-3,.sub-heading-4{
     max-width: 100%;
-    padding-left: 4rem;
+    font-size: 2.2rem;
+    color: var(--main-primary-color);
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
 }
-.content-box .input-types .email-input .email-icon{
-    position: absolute;
-    top: 0px;
-    left: 0px;
+
+/*                                  SIMPLE CARD                                  */
+
+.simple-card{
+    border: 1px solid var(--main-primary-color);
     padding: 1rem;
-    font-size: 1.3rem;
-    cursor: pointer;
 }
 
-/*                                 CHECKBOX-INPUT                            */
+/*                                  IMAGE CARD                                     */
 
-.checkbox-1,.checkbox-2,.checkbox-3{
+.image-card{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 50%;
+    text-align: left;
+    border: 1px solid var(--main-primary-color);
+}
+
+
+.image-card img{
+    max-width: 100%;
+}
+.image-card p,h5{
+    padding: 0.9rem;
+}
+h5{
+    text-align: left;
+}
+
+
+.social-media-icon .name{
+     font-size:1.1rem !important;
+     padding-left: 0px;
+}
+
+.social-media-icon .avtar{
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.social-media-icon .online-profile{
+    width: 15px !important;
+    height: 15px !important;
+}
+
+.social-media-icon{
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
 }
-
-.checkbox-1 > input{
- width: 1rem;
- height: 1rem;
-}
-.checkbox-2 > input{
-    width: 1rem;
-    height: 1rem;
-}
-.checkbox-3 > input{
-    width: 1rem;
-    height: 1rem;
+.social-image .avtar{
+   cursor: pointer;
+   color: palevioletred;
 }
 
-.checkbox-1 label,.checkbox-2 label,.checkbox-3 label{
-    padding-left: 0.5rem;
-    color: var(--main-primary-color);
+.social-image .likes-number{
+    color: black;
+    font-size: 0.8rem;
+
+    padding: 0rem 0.5rem 0rem 0.5rem ;
 }
 
 
 
 
-
-
- /*                    NAVIGATE                       */
+ /*                                  NAVIGATE                                     */
  .navigate{
     display: flex;
     justify-content: space-between;

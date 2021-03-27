@@ -214,7 +214,7 @@
     margin-left:22.5rem ;
     background: #FFFAFA;
     height: 100vh;
-    padding: 2.5rem;
+    padding: 2.5rem 2.5rem 0rem 2.5rem;
     font-family: var(--main-font);
     font-weight: 600;
     display: flex;
@@ -368,7 +368,6 @@
     color: var(--dark);
     border: 1px solid var(--dark);
 }
-
 
 
 

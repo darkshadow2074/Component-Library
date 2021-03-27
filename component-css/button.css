@@ -214,7 +214,7 @@
     margin-left:22.5rem ;
     background: #FFFAFA;
     height: 100%;
-    padding: 2.5rem;
+    padding: 2.5rem 2.5rem 0rem 2.5rem;
     font-family: var(--main-font);
     font-weight: 600;
     display: flex;
@@ -276,7 +276,7 @@
     background-color: beige;
     width: 100%;
 }
-.content-box .button-component-container .btn-container .simple-btn{
+ .simple-btn{
     width: 7rem;
     min-width: 4rem;
     height: 3rem;
@@ -560,6 +560,8 @@
     color: white;
 }
 
+
+/*                             Navigate                                   */
 .navigate{
     display: flex;
     justify-content: space-between;

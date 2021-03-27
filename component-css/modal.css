@@ -213,7 +213,7 @@
 .content-box{
     margin-left:22.5rem ;
     background: #FFFAFA;
-    height: 100%;
+    height: 100vh;
     padding: 2.5rem 2.5rem 0rem 2.5rem;
     font-family: var(--main-font);
     font-weight: 600;
@@ -236,11 +236,12 @@
 
 }
 
-.content-box .introduction , .input-component-container {
+.content-box .introduction , .modal-component-container {
     font-size: 1.55rem;
     padding: 1.2rem;
     width: inherit;
 }
+
 
 
 .content-box  .iframe-section{
@@ -260,13 +261,12 @@
     padding-bottom: 0.5rem;
 }
 
-.content-box .input-component-container .input-container{
-    padding: 1rem;
+.content-box .modal-component-container .modal-container{
     margin: 1rem 0rem 1rem 0rem;
+    padding: 0.9rem;
     background-color: transparent;
+    border: 1px solid var(--main-primary-color);
     width: 100%;
-    border: 1px solid rgb(20, 19, 19);
-     border-radius: 0.4rem;
 }
 
 .content-box .introduction-text{
@@ -275,104 +275,34 @@
     word-spacing: 2.5px;
     font-size: 1.3rem ;
     font-weight: 500;
- }
-
- .content-box .input{
-    /* padding: 1.5rem; */
-     margin: 1.2rem;
-     
-     font-family: var(--main-primary-color);
-     min-width: 100px;
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
- }
-.content-box .input .form-control{
-   padding: 1rem;
-   font-size: 1.2rem;
-   border-radius: 10px;
-   outline: var(--main-primary-color);
-   background-color: #e1f1fd;
-   border: none;
 }
-.sub-heading-3{
-    font-size: 1.8rem;
+.modal{
+     display: none;;
+     flex-direction: column;
+     justify-content: space-around;
+     width: 100%;
+     height: 100px;
+     position: relative;
+     border-radius: 1px solid var(--secondary);
+     margin-top: 0.7rem;
 }
 
-/*                                       TYPES OF INPUTS                                     */
-
-.content-box .input-types{
-    font-family: var(--main-font);
+.simple-modal{
+    background-color: var(--secondary);
 }
-.content-box .input-types .input-introduction-text{
-    padding: 0.3rem 0.3rem 0.3rem 0.8rem;
-    font-size: 1.6rem;
-}
-
-/*                                  SEARCH INPUT                   */
-.content-box .input-types .search-input{
-    position: relative;
-    width: 15rem;
-}
-.content-box .input-types .search-input input{
-    max-width: 100%;
-}
-.content-box .input-types .search-input .search-icon{
-     position: absolute;
-    top: 0px;
-    right: 0px;
+.simple-modal .modal-text{
     padding: 1rem;
-    font-size: 1.3rem;
-    cursor: pointer;
 }
-
-/*                                     EMAIL-INPUT                       */
-.content-box .input-types .email-input{
-    position: relative;
-    width: 18rem;
-}
-.content-box .input-types .email-input input{
-    max-width: 100%;
-    padding-left: 4rem;
-}
-.content-box .input-types .email-input .email-icon{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    padding: 1rem;
-    font-size: 1.3rem;
-    cursor: pointer;
-}
-
-/*                                 CHECKBOX-INPUT                            */
-
-.checkbox-1,.checkbox-2,.checkbox-3{
+.modal-active{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
 }
-
-.checkbox-1 > input{
- width: 1rem;
- height: 1rem;
+.simple-modal .modal-icon{
+    position: absolute;
+    top: -9px;
+    right: 0;
+    padding: 1rem;
+    cursor: pointer;
 }
-.checkbox-2 > input{
-    width: 1rem;
-    height: 1rem;
-}
-.checkbox-3 > input{
-    width: 1rem;
-    height: 1rem;
-}
-
-.checkbox-1 label,.checkbox-2 label,.checkbox-3 label{
-    padding-left: 0.5rem;
-    color: var(--main-primary-color);
-}
-
-
-
-
 
 
  /*                    NAVIGATE                       */
