@@ -1,0 +1,38 @@
+@media all and (max-width:768px){
+    .sideBar{
+        display: none;
+    }
+    .content-box{
+        margin-left: 0px;
+    }
+    .content-box .main-heading{
+        max-width: 100%;
+        font-size: 2.4rem;
+    }
+}
+
+@media all and (max-width:420px){
+    .content-box{
+        padding: 1.8rem;
+    }
+    .content-box .main-heading{
+        max-width: 100%;
+        font-size: 2rem;
+    }
+    .content-box .introduction-text,.installation-text{
+        font-size: 1.5rem ;
+     }
+}
+
+@media all and (max-width:320px){
+    .content-box{
+        padding: 1.5rem;
+    }
+    .content-box .main-heading{
+        max-width: 100%;
+        font-size: 1.7rem;
+    }
+    .content-box .introduction-text,.installation-text{
+        font-size: 1.3rem ;
+     }
+}

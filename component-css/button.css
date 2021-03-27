@@ -1,0 +1,582 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --banner-text-color: #dc2626;
+    --main-primary-color: #00008b;
+    --main-font : 'Raleway', sans-serif;
+    --primary:#1e8be4;
+    --secondary:#778899;
+    --success:#129212;
+    --danger: #ca160d;
+    --warning:#FFCC00;
+    --info : indigo;
+    --light: whitesmoke;
+    --dark: #000000;
+  
+    --primary-hover:#106fbd;
+    --secondary-hover:#697683;
+    --success-hover:#017201;
+    --danger-hover: #b32922;
+    --warning-hover:#d6ab00;
+    --info-hover : rgb(55, 2, 94);
+    --light-hover: rgb(212, 201, 201);
+    --dark-hover: #000000;
+}
+
+
+
+/*                             SIDEBAR                     */
+
+.heading{
+    width: 100%;
+    padding: 0.9rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.heading .brand-name img{
+    width: 160px;
+}
+
+.sideBar{
+    width: 22.4rem;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    overflow-y:auto;
+    overflow-x: hidden;
+    /* background-color: #fbb034; */
+    /* background-color: #E3E3E3; */
+    /* background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
+    background-image: linear-gradient(to right top, #fadadd, #f6e0ec, #efe7f5, #ebeef9, #ecf3f9);
+    display: flex;
+    flex-direction: column;
+}
+
+.heading .docs-link > a{
+     text-decoration: none;
+     font-family: var(--main-font);
+     font-weight: 600;
+     font-size: 0.9rem;
+     color: var(--main-primary-color);
+}
+
+.sideBar hr{
+    width:22.6rem;
+    font-weight: 200;
+    display: block;
+    margin: 0.2rem auto;
+    color: var(--main-primary-color);
+    height: 0.4px;
+    opacity: 0.4;
+}
+
+.installation{
+   padding: 1.3rem;
+}
+.installation a{
+    text-decoration: none;
+    font-size: 1.42rem;
+    color: var(--main-primary-color);
+    font-family: var(--main-font);
+    font-weight: 700;
+}
+.installation a:hover{
+    color: var(--banner-text-color);
+}
+.nav-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;  
+    width: 100%;
+    margin: 0rem 0rem 0.2rem 0.4rem;
+    flex: 1;
+}
+.nav-items .buttons,.alerts,.badges,.avtars,.inputs,.modals,.cards{
+    padding: 1rem;
+    width: 100%;
+    cursor: pointer;
+}
+.nav-items a{
+    text-decoration: none;
+    font-family: var(--main-font);
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--main-primary-color);
+}
+
+.nav-items .buttons:hover{
+    background-color: rgb(113 54 54 / 15%);
+    backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius:1.5rem ;
+    color:var(--banner-text-color);
+}
+.nav-items .alerts:hover{
+    background-color: rgb(113 54 54 / 15%);
+    backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius:1.5rem ;
+    color:var(--banner-text-color);
+}
+
+.nav-items .badges:hover{
+    background-color: rgb(113 54 54 / 15%);
+    backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius:1.5rem ;
+    color:var(--banner-text-color);
+}
+
+.nav-items .avtars:hover{
+    background-color: rgb(113 54 54 / 15%);
+    backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius:1.5rem ;
+    color:var(--banner-text-color);
+}
+
+.nav-items .inputs:hover{
+    background-color: rgb(113 54 54 / 15%);
+    backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius:1.5rem ;
+    color:var(--banner-text-color);
+}
+
+.nav-items .modals:hover{
+    background-color: rgb(113 54 54 / 15%);
+    backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius:1.5rem ;
+    color:var(--banner-text-color);
+}
+
+.nav-items .cards:hover{
+    background-color: rgb(113 54 54 / 15%);
+    backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius:1.5rem ;
+    color:var(--banner-text-color) !important;
+
+}
+.copy{
+    position: relative;
+    width: 100%;
+    margin-top: 0.8;
+    margin-bottom: 0px;
+    border-top: 0.4px solid  #ad9aa3;
+}
+.footer{
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.9rem 2rem;
+}
+.designedBy{
+    color: var(--banner-text-color);
+    line-height: 1.3;   
+    font-family: var(--main-font);
+    font-weight: 600;
+    font-size: 0.8rem; 
+    text-align: left;
+}
+.footer a{
+    text-decoration: none;
+    color: var(--main-primary-color);
+}
+ .name{
+    color: var(--main-primary-color);
+    font-weight: 600;
+}
+.footer .github a{
+    font-size: 1.1rem;
+}
+
+.active{
+    color: var(--banner-text-color) !important;
+}
+
+/*                             CONTENT BOX                    */
+
+
+.content-box{
+    margin-left:22.5rem ;
+    background: #FFFAFA;
+    height: 100%;
+    padding: 2.5rem;
+    font-family: var(--main-font);
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-around;
+}
+
+.content-box h1,h2,h3,h4{
+   font-family: var(--main-font);
+   font-weight: 600;
+}
+
+.content-box .introduction , .installation-guide,.button-component-container {
+    font-size: 1.55rem;
+    padding: 1.2rem;
+    width: inherit;
+}
+.content-box .introduction-text{
+   padding-top:1rem ;
+   line-height: 1.3;
+   word-spacing: 2.5px;
+   font-size: 1.3rem ;
+   font-weight: 500;
+}
+
+.content-box .main-heading{
+    max-width: 100%;
+    font-size: 2.5rem;
+    color: var(--main-primary-color);
+
+}
+
+.content-box .introduction-text,.installation-text .download-icon a{
+    font-size: 1.2rem;
+}
+
+.content-box .installation-guide .iframe-section{
+    padding-top: 0.9rem;
+    width: inherit;
+}
+.content-box .installation-guide .iframe-section > iframe{
+    max-width: 100%;
+    overflow-x: auto;
+}
+/*                     Simple  Button Component Section                           */
+
+
+.content-box .sub-heading-1,.sub-heading-2,.sub-heading-3,.sub-heading-4{
+    max-width: 100%;
+    font-size: 2.2rem;
+    color: var(--main-primary-color);
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+.content-box .button-component-container .btn-container{
+    padding: 0.9rem;
+    margin: 1rem 0rem 1rem 0rem;
+    background-color: beige;
+    width: 100%;
+}
+.content-box .button-component-container .btn-container .simple-btn{
+    width: 7rem;
+    min-width: 4rem;
+    height: 3rem;
+    min-height: 2rem;
+    cursor: pointer;
+    background-color: #00008b;
+    color: white;
+    outline:none ;
+    border: none;
+}
+.content-box .button-component-container .iframe-section{
+    padding: 1rem 0rem 1rem 0rem;
+    width: inherit;
+}
+.content-box .button-component-container .iframe-section > iframe{
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.content-box .button-component-container .btn{
+    width: 5rem;
+    min-width: 3rem;
+    height: 2rem;
+    min-height: 1.5rem;
+    cursor: pointer;
+    outline:none ;
+    border: none;
+    font-family: var(--main-font);
+    font-weight: 500;
+}
+.content-box .button-component-container .btn-display{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+
+/*                      Contained Button                           */
+
+.content-box .button-component-container .btn-primary{
+    background-color: var(--primary);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-secondary{
+    background-color: var(--secondary);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-success{
+    background-color: var(--success);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-danger{
+    background-color:var(--danger);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-warning{
+    background-color: var(--warning);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-info{
+    background-color: var(--info);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-light{
+    background-color: var(--light);
+    color: var(--dark);
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-dark{
+    background-color: var(--dark);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-link{
+    color: var(--info);
+    text-decoration: underline;
+    margin: 0.3rem;
+    background-color: transparent;
+}
+
+.content-box .button-component-container .btn-primary:hover{
+    background-color: var(--primary-hover);
+    color: white;
+ 
+}
+.content-box .button-component-container .btn-secondary:hover{
+    background-color: var(--secondary-hover);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-success:hover{
+    background-color: var(--success-hover);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-danger:hover{
+    background-color:var(--danger-hover);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-warning:hover{
+    background-color: var(--warning-hover);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-info:hover{
+    background-color: var(--info-hover);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-light:hover{
+    background-color: var(--light-hover);
+    color: var(--dark);
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-dark:hover{
+    background-color: var(--dark);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-link:hover{
+    color: var(--info-hover);
+    text-decoration: underline;
+    margin: 0.3rem;
+    background-color: transparent;
+}
+
+/*                                            Outline Button Components                                           */
+
+.content-box .button-component-container .btn-outline-primary{
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-outline-secondary{
+    color: var(--secondary);
+    border: 1px solid var(--secondary);
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-outline-success{
+    color:var(--success);
+    border: 1px solid var(--success);
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-outline-danger{
+    color: var(--danger);
+    border: 1px solid var(--danger);
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-outline-warning{
+    color: var(--warning);
+    border: 1px solid var(--warning);
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-outline-info{
+    color: var(--info);
+    border: 1px solid var(--info);
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-outline-light{
+    color: var(--dark);
+    border: 1px solid var(--light);
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-outline-dark{
+    color: var(--dark);
+    border: 1px solid var(--dark);
+    margin: 0.3rem;
+}
+
+.content-box .button-component-container .btn-outline-primary:hover{
+    background-color: var(--primary-hover);
+    color: white;
+ 
+}
+.content-box .button-component-container .btn-outline-secondary:hover{
+    background-color: var(--secondary-hover);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-outline-success:hover{
+    background-color: var(--success-hover);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-outline-danger:hover{
+    background-color:var(--danger-hover);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-outline-warning:hover{
+    background-color: var(--warning-hover);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-outline-info:hover{
+    background-color: var(--info-hover);
+    color: white;
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-outline-light:hover{
+    background-color: var(--light-hover);
+    color: var(--dark);
+    margin: 0.3rem;
+}
+.content-box .button-component-container .btn-outline-dark:hover{
+    background-color: var(--dark);
+    color: white;
+    margin: 0.3rem;
+}
+
+/*                                           Large Button Components                                           */
+
+.content-box .button-component-container .btn-lg-primary{
+    background-color: var(--primary);
+    color: white;
+    margin: 0.3rem;
+    width: 10rem;
+    height: 4rem;
+}
+
+.content-box .button-component-container .btn-md-primary{
+    background-color: var(--primary);
+    color: white;
+    margin: 0.3rem;
+    width: 7rem;
+    height: 3rem;
+}
+
+.content-box .button-component-container .btn-sm-primary{
+    background-color: var(--primary);
+    color: white;
+    margin: 0.3rem;
+    width: 5rem;
+    height: 3rem;
+}
+
+.content-box .button-component-container .btn-lg-outline-primary{
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    margin: 0.3rem;
+    width: 10rem;
+    height: 4rem;
+}
+
+.content-box .button-component-container .btn-md-outline-primary{
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    margin: 0.3rem;
+    width: 7rem;
+    height: 3rem;
+}
+
+.content-box .button-component-container .btn-sm-outline-primary{
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    margin: 0.3rem;
+    width: 5rem;
+    height: 3rem;
+}
+
+.content-box .button-component-container .btn-lg-outline-primary:hover{
+    background-color: var(--primary-hover);
+    color: white;
+}
+
+.content-box .button-component-container .btn-md-outline-primary:hover{
+    background-color: var(--primary-hover);
+    color: white;
+}
+
+.content-box .button-component-container .btn-sm-outline-primary:hover{
+    background-color: var(--primary-hover);
+    color: white;
+}
+
+.navigate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:1rem ;
+    color: var(--main-primary-color);
+}
+
+.navigate a{
+    text-decoration: none;
+    font-family: var(--main-font);
+    color: var(--main-primary-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.navigate i{
+    padding: 0rem 0.2rem 0rem 0.2rem;
+}
+

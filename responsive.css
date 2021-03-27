@@ -1,0 +1,71 @@
+@media all and (max-width:768px){
+    html{
+        width: 100%;
+    }
+    body{
+        max-width: 100%;
+    }
+    .nav-brand .brand-logo > img{
+        width: 14.2rem;
+    }
+    
+    /* .brand-name > p{
+        min-width: 40%;
+      
+    }   */
+    .navs li{
+        padding-right: 1.5rem;
+    }
+    .nav-items a{
+        font-size: 1.7rem;
+        
+    }
+    
+}
+
+@media all and (max-width:446px){
+     html{
+         max-width: 100%;
+     }
+     body{
+         width: 100%;
+     }
+    
+     .nav-brand .brand-logo > img{
+        width: 12.2rem;
+    }
+    
+    /* .brand-name > p{
+        min-width: 35%;
+    } */
+    .navs li{
+        padding-right: 1.2rem;
+    }
+    .nav-items a{
+        font-size: 1.5rem;
+    }
+
+    .banner{
+        margin: 2.2rem;
+        padding: 0;
+    }
+
+    .tag-line{
+        font-size: 2.2rem;
+        margin-top: 2.2rem;
+    }
+    .dummy{
+        text-align: left;
+    }
+    .explore-btn{
+        min-width: 250px;
+        text-align: center;
+        margin-top: 2.1rem;
+        align-self: flex-start;
+    }
+    .explore-btn > a{
+        padding: 1rem;
+        font-size: 1.4rem;
+   }
+   
+}
