@@ -1,7 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
 
-/*                             SIDEBAR                     */
+:root{
+    --banner-text-color: #dc2626;
+    --main-primary-color: #00008b;
+    --main-font : 'Raleway', sans-serif;
+    --primary:#1e8be4;
+    --secondary:#778899;
+    --success:#129212;
+    --danger: #ca160d;
+    --warning:#FFCC00;
+    --info : indigo;
+    --light: whitesmoke;
+    --dark: #000000;
+  
+    --primary-hover:#106fbd;
+    --secondary-hover:#697683;
+    --success-hover:#017201;
+    --danger-hover: #b32922;
+    --warning-hover:#d6ab00;
+    --info-hover : rgb(55, 2, 94);
+    --light-hover: rgb(212, 201, 201);
+    --dark-hover: #000000;
+}
 
-/* .heading{
+
+
+
+
+/*                                 SIDEBAR                                      */
+.heading{
     width: 100%;
     padding: 0.9rem;
     display: flex;
@@ -21,6 +52,9 @@
     height: 100%;
     overflow-y:auto;
     overflow-x: hidden;
+    /* background-color: #fbb034; */
+    /* background-color: #E3E3E3; */
+    /* background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
     background-image: linear-gradient(to right top, #fadadd, #f6e0ec, #efe7f5, #ebeef9, #ecf3f9);
     display: flex;
     flex-direction: column;
@@ -168,83 +202,4 @@
 }
 .footer .github a{
     font-size: 1.1rem;
-} */
-
-.active{
-    color:var(--banner-text-color) !important;
-}
-
-/*                             CONTENT BOX                    */
-
-
-.content-box{
-    margin-left:22.5rem ;
-    background: #FFFAFA;
-    height: 100%;
-    padding: 2.5rem 2.5rem 0rem 2.5rem;
-    font-family: var(--main-font);
-    font-weight: 600;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: space-around;
-}
-
-.content-box h1,h2,h3,h4{
-   font-family: var(--main-font);
-   font-weight: 600;
-}
-
-.content-box .introduction , .installation-guide {
-    font-size: 1.55rem;
-    padding: 1.2rem;
-    width: inherit;
-}
-.content-box .introduction-text,.installation-text{
-   padding-top:1rem ;
-   line-height: 1.3;
-   word-spacing: 2.5px;
-   font-size: 1.3rem ;
-   font-weight: 500;
-}
-
-.content-box .main-heading{
-    max-width: 100%;
-    font-size: 2.3rem;
-    color: var(--main-primary-color);
-
-}
-
-.content-box .introduction-text,.installation-text .download-icon a{
-    font-size: 1.2rem;
-}
-
-.content-box .installation-guide .iframe-section{
-    padding-top: 0.9rem;
-    width: inherit;
-}
-.content-box .installation-guide .iframe-section > iframe{
-    max-width: 100%;
-    overflow-x: auto;
-}
-
-/*                             Navigate                                   */
-.navigate{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding-top:1rem ;
-    color: var(--main-primary-color);
-}
-
-.navigate a{
-    text-decoration: none;
-    font-family: var(--main-font);
-    color: var(--main-primary-color);
-    font-weight: 600;
-    font-size: 1.1rem;
-}
-
-.navigate i{
-    padding: 0rem 0.2rem 0rem 0.2rem;
 }

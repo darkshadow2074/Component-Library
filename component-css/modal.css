@@ -31,7 +31,7 @@
 
 /*                             SIDEBAR                     */
 
-.heading{
+/* .heading{
     width: 100%;
     padding: 0.9rem;
     display: flex;
@@ -51,9 +51,6 @@
     height: 100%;
     overflow-y:auto;
     overflow-x: hidden;
-    /* background-color: #fbb034; */
-    /* background-color: #E3E3E3; */
-    /* background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
     background-image: linear-gradient(to right top, #fadadd, #f6e0ec, #efe7f5, #ebeef9, #ecf3f9);
     display: flex;
     flex-direction: column;
@@ -201,7 +198,7 @@
 }
 .footer .github a{
     font-size: 1.1rem;
-}
+} */
 
 .active{
     background-color: rgb(156 148 148 / 15%);
@@ -235,7 +232,7 @@
 
 .content-box .main-heading{
     max-width: 100%;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: var(--main-primary-color);
 
 }

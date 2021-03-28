@@ -1,37 +1,8 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
-
-:root{
-    --banner-text-color: #dc2626;
-    --main-primary-color: #00008b;
-    --main-font : 'Raleway', sans-serif;
-    --primary:#1e8be4;
-    --secondary:#778899;
-    --success:#129212;
-    --danger: #ca160d;
-    --warning:#FFCC00;
-    --info : indigo;
-    --light: whitesmoke;
-    --dark: #000000;
-  
-    --primary-hover:#106fbd;
-    --secondary-hover:#697683;
-    --success-hover:#017201;
-    --danger-hover: #b32922;
-    --warning-hover:#d6ab00;
-    --info-hover : rgb(55, 2, 94);
-    --light-hover: rgb(212, 201, 201);
-    --dark-hover: #000000;
-}
-
 
 
 /*                             SIDEBAR                     */
 
-.heading{
+/* .heading{
     width: 100%;
     padding: 0.9rem;
     display: flex;
@@ -51,9 +22,6 @@
     height: 100%;
     overflow-y:auto;
     overflow-x: hidden;
-    /* background-color: #fbb034; */
-    /* background-color: #E3E3E3; */
-    /* background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
     background-image: linear-gradient(to right top, #fadadd, #f6e0ec, #efe7f5, #ebeef9, #ecf3f9);
     display: flex;
     flex-direction: column;
@@ -201,7 +169,7 @@
 }
 .footer .github a{
     font-size: 1.1rem;
-}
+} */
 
 .active{
     background-color: rgb(156 148 148 / 15%);
@@ -247,7 +215,7 @@
 
 .content-box .main-heading{
     max-width: 100%;
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     color: var(--main-primary-color);
 
 }
