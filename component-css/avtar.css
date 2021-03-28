@@ -204,7 +204,11 @@
 }
 
 .active{
-    color: var(--banner-text-color) !important;
+    background-color: rgb(156 148 148 / 15%);
+    backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius:1.5rem ;
+    color:var(--banner-text-color) !important;
 }
 
 /*                             CONTENT BOX                    */

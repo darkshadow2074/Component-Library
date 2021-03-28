@@ -204,7 +204,11 @@
 }
 
 .active{
-    color: var(--banner-text-color) !important;
+    background-color: rgb(156 148 148 / 15%);
+    backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius:1.5rem ;
+    color:var(--banner-text-color) !important;
 }
 
 /*                             CONTENT BOX                    */
@@ -339,6 +343,78 @@ h5{
 
     padding: 0rem 0.5rem 0rem 0.5rem ;
 }
+
+.shopping-card{
+    width: 300px;
+    position: relative;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border:1px solid black;
+}
+
+/* .shopping-card .avtar{
+   
+    width: 290px;
+    height: inherit;
+    border-radius: 0px;
+    padding: 0rem;
+} */
+
+.shopping-card .product-name{
+    font-size: 1.4rem;
+    color: var(--banner-text-color);
+    padding-bottom: 0.2rem;
+}
+
+.shopping-card .product-price{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 0.2rem 0.9rem 0.2rem 0.9rem;
+}
+.shopping-card .product-price p{
+    padding:0.2rem ;
+}
+
+.shopping-card .product-price .discount{
+    color: var(--banner-text-color);
+}
+
+.original-price{
+    text-decoration: line-through;
+}
+.add-to-cart{
+    margin: 0.5rem 1rem;
+}
+
+.tag{
+    position: absolute;
+    border-radius: 0px !important;
+    top: -18px;
+    left: -14px;
+    width: 103px !important;
+    height: 96px !important;
+    padding: 0.7rem;
+}
+.wishlist-icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    padding: 1rem;
+    cursor: pointer;
+}
+.simple-btn:hover{
+    background-color: #14148d;
+}
+.wishlist-icon:hover{
+color: var(--banner-text-color);
+}
+
+/*                                   Shopping Card                                */
 
 
 
