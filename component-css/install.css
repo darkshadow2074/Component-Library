@@ -9,7 +9,13 @@
 .content-box .introduction , .installation-guide {
     font-size: 1.55rem;
     padding: 1.2rem;
+    margin: 0.8rem;
+    border-radius: 10px;
+    background: #F5F6F7;
     width: inherit;
+    box-shadow: 0px 1px 5px 2px rgb(0 0 0 / 46%);
+    -webkit-box-shadow: 0px 1px 5px 2px rgb(0 0 0 / 46%);
+    -moz-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.46);
 }
 .content-box .introduction-text,.installation-text{
    padding-top:1rem ;
