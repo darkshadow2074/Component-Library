@@ -1,0 +1,9 @@
+@media all and (max-width:392px){
+    .form-control{
+        font-size: 12px;
+    }
+}
+
+.input-checkbox label{
+font-size: 0.9rem;
+}

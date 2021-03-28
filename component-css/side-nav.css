@@ -5,6 +5,7 @@
 }
 
 :root{
+    --background-color:#F8F8FF;
     --banner-text-color: #dc2626;
     --main-primary-color: #00008b;
     --main-font : 'Raleway', sans-serif;
@@ -45,19 +46,19 @@
 }
 
 .sideBar{
-    width: 22.4rem;
+    width: 20.5rem;
     position: fixed;
     top: 0px;
     left: 0px;
     height: 100%;
     overflow-y:auto;
     overflow-x: hidden;
-    /* background-color: #fbb034; */
-    /* background-color: #E3E3E3; */
-    /* background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
     background-image: linear-gradient(to right top, #fadadd, #f6e0ec, #efe7f5, #ebeef9, #ecf3f9);
     display: flex;
     flex-direction: column;
+    box-shadow: 2px 0px 2px 2px rgba(245,246,247,0.47);
+    -webkit-box-shadow: 2px 0px 2px 2px rgba(245,246,247,0.47);
+    -moz-box-shadow: 2px 0px 2px 2px rgba(245,246,247,0.47);
 }
 
 .heading .docs-link > a{
@@ -202,4 +203,31 @@
 }
 .footer .github a{
     font-size: 1.1rem;
+}
+
+/*                    Main-Content                                 */
+
+.content-box{
+    margin-left:20.5rem ;
+    background: var(--background-color);
+    height: 100%;
+    padding: 2.5rem 2.5rem 0rem 2.5rem;
+    font-family: var(--main-font);
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: space-around;
+}
+
+.content-box h1,h2,h3,h4{
+   font-family: var(--main-font);
+   font-weight: 600;
+}
+
+.content-box .main-heading{
+    max-width: 100%;
+    font-size: 2.3rem;
+    color: var(--main-primary-color);
+
 }

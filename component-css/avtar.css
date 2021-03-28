@@ -181,36 +181,16 @@
 /*                             CONTENT BOX                    */
 
 
-.content-box{
-    margin-left:22.5rem ;
-    background: #FFFAFA;
-    height: 100%;
-    padding: 2.5rem 2.5rem 0rem 2.5rem;
-    font-family: var(--main-font);
-    font-weight: 600;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: space-around;
-}
-
-.content-box h1,h2,h3,h4{
-   font-family: var(--main-font);
-   font-weight: 600;
-}
-
-
-.content-box .main-heading{
-    max-width: 100%;
-    font-size: 2.3rem;
-    color: var(--main-primary-color);
-
-}
-
 .content-box .introduction , .avtar-component-container {
     font-size: 1.55rem;
     padding: 1.2rem;
+    margin: 0.8rem;
+    border-radius: 10px;
+    background: #F5F6F7;
     width: inherit;
+    box-shadow: 0px 1px 5px 2px rgb(0 0 0 / 46%);
+    -webkit-box-shadow: 0px 1px 5px 2px rgb(0 0 0 / 46%);
+    -moz-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.46);
 }
 
 .content-box .avtar-component-container .avtar-container{
@@ -218,7 +198,11 @@
     margin: 1rem 0rem 1rem 0rem;
     background-color: transparent;
     width: 100%;
-    border: 1px solid rgb(20, 19, 19);
+    background-color: #E7E8E8;
+    border-radius:8px ;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.46);
+   -webkit-box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.46);
+   -moz-box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.46);
     border-radius: 0.4rem;
 }
 

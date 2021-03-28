@@ -1,0 +1,31 @@
+@media all and (max-width:420px){
+    .card-text{
+        font-size:1rem;
+        padding: 0.4rem !important;
+    }
+    .social-media-icon .name{
+        font-size: 0.7rem !important;
+    }
+    .tag {
+ 
+        width: 85px !important;
+        height: 82px !important;
+    }
+    .product-price{
+        font-size: 0.6rem !important; 
+    }
+    .add-to-cart{
+        width: 2rem;
+        height: 2rem;
+        min-width: 5rem;
+    }
+}
+
+@media all and (max-width:262px){
+    .sub-heading-3{
+        font-size: 1.3rem;
+    }
+    .badge{
+        padding: 0.4rem;
+    }
+}
