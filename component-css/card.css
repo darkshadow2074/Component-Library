@@ -27,6 +27,7 @@
  .card-container{
     
     margin: 1rem 0rem 1rem 0rem;
+    padding: 2rem;
     background-color: transparent;
     width: 100%;
     background-color: #E7E8E8;
@@ -99,9 +100,9 @@
 .image-card p,h5{
     padding: 0.9rem;
 }
-h5{
+/* h5{
     text-align: left;
-}
+} */
 
 .card-text{
     font-size: 1.3rem;
@@ -222,7 +223,7 @@ color: var(--banner-text-color);
 
 
  /*                                  NAVIGATE                                     */
- .navigate{
+ /* .navigate{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -240,4 +241,4 @@ color: var(--banner-text-color);
 
 .navigate i{
     padding: 0rem 0.2rem 0rem 0.2rem;
-}
+} */

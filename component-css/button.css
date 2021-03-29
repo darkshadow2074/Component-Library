@@ -84,7 +84,7 @@
     overflow-x: auto;
 }
 
-.content-box .button-component-container .btn{
+.btn{
     width: 5rem;
     min-width: 3rem;
     height: 2rem;
@@ -105,94 +105,94 @@
 
 /*                      Contained Button                           */
 
-.content-box .button-component-container .btn-primary{
+.btn-primary{
     background-color: var(--primary);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-secondary{
+.btn-secondary{
     background-color: var(--secondary);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-success{
+.btn-success{
     background-color: var(--success);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-danger{
+.btn-danger{
     background-color:var(--danger);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-warning{
+.btn-warning{
     background-color: var(--warning);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-info{
+.btn-info{
     background-color: var(--info);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-light{
+.btn-light{
     background-color: var(--light);
     color: var(--dark);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-dark{
+.btn-dark{
     background-color: var(--dark);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-link{
+.btn-link{
     color: var(--info);
     text-decoration: underline;
     margin: 0.3rem;
     background-color: transparent;
 }
 
-.content-box .button-component-container .btn-primary:hover{
+.btn-primary:hover{
     background-color: var(--primary-hover);
     color: white;
  
 }
-.content-box .button-component-container .btn-secondary:hover{
+.btn-secondary:hover{
     background-color: var(--secondary-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-success:hover{
+.btn-success:hover{
     background-color: var(--success-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-danger:hover{
+.btn-danger:hover{
     background-color:var(--danger-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-warning:hover{
+.btn-warning:hover{
     background-color: var(--warning-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-info:hover{
+.btn-info:hover{
     background-color: var(--info-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-light:hover{
+.btn-light:hover{
     background-color: var(--light-hover);
     color: var(--dark);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-dark:hover{
+.btn-dark:hover{
     background-color: var(--dark);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-link:hover{
+.btn-link:hover{
     color: var(--info-hover);
     text-decoration: underline;
     margin: 0.3rem;
@@ -201,83 +201,83 @@
 
 /*                                            Outline Button Components                                           */
 
-.content-box .button-component-container .btn-outline-primary{
+.btn-outline-primary{
     color: var(--primary);
     border: 1px solid var(--primary);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-secondary{
+.btn-outline-secondary{
     color: var(--secondary);
     border: 1px solid var(--secondary);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-success{
+.btn-outline-success{
     color:var(--success);
     border: 1px solid var(--success);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-danger{
+.btn-outline-danger{
     color: var(--danger);
     border: 1px solid var(--danger);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-warning{
+.btn-outline-warning{
     color: var(--warning);
     border: 1px solid var(--warning);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-info{
+.btn-outline-info{
     color: var(--info);
     border: 1px solid var(--info);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-light{
+.btn-outline-light{
     color: var(--dark);
     border: 1px solid var(--light);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-dark{
+.btn-outline-dark{
     color: var(--dark);
     border: 1px solid var(--dark);
     margin: 0.3rem;
 }
 
-.content-box .button-component-container .btn-outline-primary:hover{
+.btn-outline-primary:hover{
     background-color: var(--primary-hover);
     color: white;
  
 }
-.content-box .button-component-container .btn-outline-secondary:hover{
+.btn-outline-secondary:hover{
     background-color: var(--secondary-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-success:hover{
+.btn-outline-success:hover{
     background-color: var(--success-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-danger:hover{
+.btn-outline-danger:hover{
     background-color:var(--danger-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-warning:hover{
+.btn-outline-warning:hover{
     background-color: var(--warning-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-info:hover{
+.btn-outline-info:hover{
     background-color: var(--info-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-light:hover{
+.btn-outline-light:hover{
     background-color: var(--light-hover);
     color: var(--dark);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-dark:hover{
+.btn-outline-dark:hover{
     background-color: var(--dark);
     color: white;
     margin: 0.3rem;
@@ -285,7 +285,7 @@
 
 /*                                           Large Button Components                                           */
 
-.content-box .button-component-container .btn-lg-primary{
+.btn-lg-primary{
     background-color: var(--primary);
     color: white;
     margin: 0.3rem;
@@ -293,7 +293,7 @@
     height: 4rem;
 }
 
-.content-box .button-component-container .btn-md-primary{
+.btn-md-primary{
     background-color: var(--primary);
     color: white;
     margin: 0.3rem;
@@ -301,7 +301,7 @@
     height: 3rem;
 }
 
-.content-box .button-component-container .btn-sm-primary{
+.btn-sm-primary{
     background-color: var(--primary);
     color: white;
     margin: 0.3rem;
@@ -309,7 +309,7 @@
     height: 3rem;
 }
 
-.content-box .button-component-container .btn-lg-outline-primary{
+.btn-lg-outline-primary{
     color: var(--primary);
     border: 1px solid var(--primary);
     margin: 0.3rem;
@@ -318,7 +318,7 @@
     background-color: inherit;
 }
 
-.content-box .button-component-container .btn-md-outline-primary{
+.btn-md-outline-primary{
     color: var(--primary);
     border: 1px solid var(--primary);
     margin: 0.3rem;
@@ -327,7 +327,7 @@
     background-color: inherit;
 }
 
-.content-box .button-component-container .btn-sm-outline-primary{
+.btn-sm-outline-primary{
     color: var(--primary);
     border: 1px solid var(--primary);
     margin: 0.3rem;
@@ -336,24 +336,24 @@
     background-color: inherit;
 }
 
-.content-box .button-component-container .btn-lg-outline-primary:hover{
+.btn-lg-outline-primary:hover{
     background-color: var(--primary-hover);
     color: white;
 }
 
-.content-box .button-component-container .btn-md-outline-primary:hover{
+.btn-md-outline-primary:hover{
     background-color: var(--primary-hover);
     color: white;
 }
 
-.content-box .button-component-container .btn-sm-outline-primary:hover{
+.btn-sm-outline-primary:hover{
     background-color: var(--primary-hover);
     color: white;
 }
 
 
 /*                             Navigate                                   */
-.navigate{
+/* .navigate{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -371,5 +371,5 @@
 
 .navigate i{
     padding: 0rem 0.2rem 0rem 0.2rem;
-}
+} */
 

@@ -64,11 +64,16 @@
     padding: 1.5rem;
     margin: 1.2rem;
      font-family: var(--main-primary-color);
-   
+     position: relative;
      display: flex;
      flex-direction: column;
      justify-content: space-between;
      align-items: center;
+     background-color: #E7E8E8;
+     border-radius:8px ;
+     box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.46);
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.46);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.46);
  }
  .form-control{
    padding: 1rem;
@@ -98,7 +103,7 @@
 /*                                  SEARCH INPUT                   */
  .search-input{
     position: relative;
-    width: 15rem;
+    max-width: 100%;
 }
  .search-input input{
     max-width: 100%;
@@ -115,7 +120,7 @@
 /*                                     EMAIL-INPUT                       */
  .email-input{
     position: relative;
-    width: 18rem;
+    max-width: 100%;
 
 }
 .email-input .form-control{
@@ -145,7 +150,9 @@
     align-items: flex-start;
 }
 
-
+.input-checkbox .form-control{
+    min-width: 18px;
+}
 
 .checkbox-1 label,.checkbox-2 label,.checkbox-3 label{
     padding-left: 0.5rem;
@@ -158,7 +165,7 @@
 
 
  /*                    NAVIGATE                       */
- .navigate{
+ /* .navigate{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -176,4 +183,4 @@
 
 .navigate i{
     padding: 0rem 0.2rem 0rem 0.2rem;
-}
+} */

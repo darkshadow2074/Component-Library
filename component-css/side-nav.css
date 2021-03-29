@@ -231,3 +231,24 @@
     color: var(--main-primary-color);
 
 }
+
+/*  Navigate  */
+.navigate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:1rem ;
+    color: var(--main-primary-color);
+}
+
+.navigate a{
+    text-decoration: none;
+    font-family: var(--main-font);
+    color: var(--main-primary-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.navigate i{
+    padding: 0rem 0.2rem 0rem 0.2rem;
+}

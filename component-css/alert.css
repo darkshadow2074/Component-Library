@@ -60,7 +60,7 @@
     font-weight: 500;
  }
 
- .content-box .simple-alert{
+  .simple-alert{
      padding: 1.5rem;
      margin: 1.2rem;
      border: 1px solid rgb(20, 19, 19);
@@ -69,7 +69,7 @@
      border-radius: 0.4rem;
  }
 
- .content-box .alert-component-container .alert{
+ .alert{
     cursor: pointer;
     outline:none ;
     border-radius: 0.4rem;
@@ -80,69 +80,69 @@
     margin: 1rem;
 }
 
- .content-box .alert-component-container .primary-alert{
+ .primary-alert{
     background-color: var(--primary);
     color: white;
 }
-.content-box .alert-component-container .secondary-alert{
+.secondary-alert{
     background-color: var(--secondary);
     color: white;
 }
-.content-box .alert-component-container .success-alert{
+.success-alert{
     background-color: var(--success);
     color: white;
 }
-.content-box .alert-component-container .failure-alert{
+.failure-alert{
     background-color:var(--danger);
     color: white;
 }
-.content-box .alert-component-container .warning-alert{
+.warning-alert{
     background-color: var(--warning);
     color: white;
 }
-.content-box .alert-component-container .info-alert{
+.info-alert{
     background-color: var(--info);
     color: white;
 }
-.content-box .alert-component-container .light-alert{
+.light-alert{
     background-color: var(--light);
     color: var(--dark);
 }
-.content-box .alert-component-container .dark-alert{
+.dark-alert{
     background-color: var(--dark);
     color: white;
 }
 
 
-.content-box .alert-component-container .primary-outline-alert{
+.primary-outline-alert{
     color: var(--primary);
     border: 1px solid var(--primary);
 }
-.content-box .alert-component-container .secondary-outline-alert{
+.secondary-outline-alert{
     color: var(--secondary);
     border: 1px solid var(--secondary);
 }
-.content-box .alert-component-container .success-outline-alert{
+.success-outline-alert{
     color:var(--success);
     border: 1px solid var(--success);
 }
-.content-box .alert-component-container .failure-outline-alert{
+.failure-outline-alert{
     color: var(--danger);
     border: 1px solid var(--danger);
 }
-.content-box .alert-component-container .warning-outline-alert{
+.warning-outline-alert{
     color: var(--warning);
     border: 1px solid var(--warning);
 }
-.content-box .alert-component-container .info-outline-alert{
+.info-outline-alert{
     color: var(--info);
     border: 1px solid var(--info);
 }
-.content-box .alert-component-container .light-outline-alert{
+.light-outline-alert{
     color: var(--dark);
     border: 1px solid var(--light);
 }
-.content-box .alert-component-container .dark-outline-alert{
+.dark-outline-alert{
     color: var(--dark);
     border: 1px solid var(--dark);
 }
@@ -151,7 +151,7 @@
 
 
  /*                    NAVIGATE                       */
- .navigate{
+ /* .navigate{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -169,4 +169,4 @@
 
 .navigate i{
     padding: 0rem 0.2rem 0rem 0.2rem;
-}
+} */
