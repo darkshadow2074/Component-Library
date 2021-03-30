@@ -1,4 +1,7 @@
-
+:root{
+    --bg-color:#e1f1fd;
+    --bg-input:#E7E8E8;
+}
 .active{
     background-color: rgb(156 148 148 / 15%);
     backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
@@ -44,7 +47,7 @@
 .content-box .input-component-container .input-container{
     padding: 1rem;
     margin: 1rem 0rem 1rem 0rem;
-    background-color: #E7E8E8;
+    background-color: var(--bg-input);
     border-radius:8px ;
     box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.46);
    -webkit-box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.46);
@@ -69,7 +72,7 @@
      flex-direction: column;
      justify-content: space-between;
      align-items: center;
-     background-color: #E7E8E8;
+     background-color: var(--bg-input);
      border-radius:8px ;
      box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.46);
     -webkit-box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.46);
@@ -83,7 +86,7 @@
    border-radius: 10px;
    max-width: 100%;
    outline: var(--main-primary-color);
-   background-color: #e1f1fd;
+   background-color: var(--bg-color) ;
    border: none;
 }
 .sub-heading-3{
@@ -164,23 +167,3 @@
 
 
 
- /*                    NAVIGATE                       */
- /* .navigate{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top:1rem ;
-    color: var(--main-primary-color);
-}
-
-.navigate a{
-    text-decoration: none;
-    font-family: var(--main-font);
-    color: var(--main-primary-color);
-    font-weight: 600;
-    font-size: 1.1rem;
-}
-
-.navigate i{
-    padding: 0rem 0.2rem 0rem 0.2rem;
-} */
