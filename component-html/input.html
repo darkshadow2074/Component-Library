@@ -7,13 +7,15 @@
     <link rel="icon"  href="../component-assets/main-image/logo-design-lg.png " type="image/gif" sizes="16x16">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="../component-css/input.css">
+    <link rel="stylesheet" href="../component-css/side-nav.css">
+    <link rel="stylesheet" href="../component-responsive/inputresponsive.css">
     <link rel="stylesheet" href="../component-responsive/install-responsive.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
-    <title>ANAKYA UI | install</title>
+    <title>ANAKYA UI | Inputs</title>
 </head>
 <body>
-    <header class="sideBar">
+    <header class="side-bar">
 
         <div class="heading">
             <div class="brand-name">
@@ -31,17 +33,17 @@
   
                 <a class="buttons"  href="./button.html">Button</a>
            
-                <a class="alerts" class="active" href="./alert.html">Alerts</a>
+                <a class="alerts"  href="./alert.html">Alerts</a>
   
-                <a class="badges" href="#">Badges</a>
+                <a class="badges" href="./badges.html">Badges</a>
 
-                <a class="avtars" href="#">Avtar</a>
+                <a class="avtars" href="./avtar.html">Avtar</a>
 
-                <a class="inputs" href="#">Inputs</a>
+                <a class="inputs active" href="#">Inputs</a>
  
-                <a  class="modals" href="#">Modals</a>
+                <a  class="modals" href="./modal.html">Modals</a>
 
-                <a  class="cards" href="#">Cards</a> 
+                <a  class="cards" href="./card.html++">Cards</a> 
 
 
 
@@ -61,17 +63,16 @@
     </header>
     <main class="content-box">
         <div class="introduction">
-                <h1 class="main-heading">Input</h1>
+                <h1 class="main-heading">Inputs</h1>
                 <p class="introduction-text">The <span class="name">Input</span>  component Easily extend form controls by adding text, buttons, or button groups on either side of textual inputs, custom selects, and custom file inputs. <br>
                   <br>  Use <span class="name">ANAKYA UI's</span> provides variety of custom input groups to get user input.
                 </p>
         </div>
-        <hr style="margin: 5px;">
     <div class="input-component-container">       
         <h2 class="sub-heading-1">Basic Input</h2>
         <div class="input-container">
            <div class=" input"> 
-               <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name">
+               <input type="text" class="form-control" name="name" id="name" placeholder="Username">
                <input type="password" class="form-control" name="password" id="password" placeholder="password">
             </div>
         </div>
@@ -95,12 +96,64 @@
            <div class=" input"> 
             <input type="text" class="form-control" name="name" id="name" placeholder="Enter your name">
             </div>
-        </div>
-       
+            <h4 class="sub-heading-3">
+                Password
+             </h4>
+             <p class="input-introduction-text">
+                Defines a password field
+             </p>
+             <div class=" input"> 
+              <input type="password" class="form-control"  id="password" placeholder="Password">
+              </div>
+              <h4 class="sub-heading-3">
+                Search
+             </h4>
+             <p class="input-introduction-text">
+                Defines a text field for entering a search string
+             </p>
+             <div class=" input"> 
+                <div class="search-input"> <input type="search" class="form-control"  id="search" placeholder="Search" ><span class="search-icon"><i class="fas fa-search"></i></span></div>
+              </div>
+              <h4 class="sub-heading-3">
+                Email
+             </h4>
+             <p class="input-introduction-text">
+                Defines a field for an e-mail address.
+             </p>
+             <div class=" input"> 
+                <div class="email-input">
+                    <span class="email-icon"><i class="fas fa-envelope"></i></span><input type="email" class="form-control"  id="email" placeholder="ANAKYA@XYZ.com" >
+                </div>
+              </div>
+              <h4 class="sub-heading-3">
+                Checkbox
+             </h4>
+             <p class="input-introduction-text">
+                Defines a checkbox.
+             </p>
+             <div class=" input input-checkbox"> 
 
+                    <div class="checkbox-1"><input type="checkbox" id="HTML" class="form-control"><label for="HTML">HTML</label></div>
+                    <div class="checkbox-2"><input type="checkbox" id="CSS" class="form-control"><label for="CSS">CSS</label></div>
+                    <div class="checkbox-3"><input type="checkbox" id="JAVASCRIPT" class="form-control"><label for="JAVASCRIPT">JAVASCRIPT</label></div>
+                    <div class="checkbox-3"><input type="checkbox" id="disabled" class="form-control" disabled><label for="disabled">Disabled</label></div>
+
+              </div>
+              <div class="iframe-section">
+                <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%280%2C0%2C0%2C1%29&t=seti&wt=sharp&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=49px&ln=false&fl=1&fm=Fira+Code&fs=12px&lh=138%25&si=false&es=2x&wm=false&code=%252F%252FNAME%250A%253Cdiv%2520class%253D%2522%2520input%2522%253E%2520%250A%2520%253Cinput%2520type%253D%2522text%2522%2520class%253D%2522form-control%2522%2520name%253D%2522name%2522%2520id%253D%2522name%2522%2520placeholder%253D%2522Enter%2520your%2520name%2522%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252FPASSWORD%250A%253Cdiv%2520class%253D%2522%2520input%2522%253E%2520%250A%2520%253Cinput%2520type%253D%2522password%2522%2520class%253D%2522form-control%2522%2520%2520id%253D%2522password%2522%2520placeholder%253D%2522Enter%2520your%2520password%2522%253E%250A%2520%253C%252Fdiv%253E%250A%250A%252F%252FSEARCH%250A%253Cdiv%2520class%253D%2522%2520input%2522%253E%2520%250A%253Cdiv%2520class%253D%2522search-input%2522%253E%2520%253Cinput%2520type%253D%2522search%2522%2520class%253D%2522form-control%2522%2520%2520id%253D%2522search%2522%2520placeholder%253D%2522Search%2522%2520%253E%253Cspan%2520class%253D%2522search-icon%2522%253E%253Ci%2520class%253D%2522fas%2520%2520%2520fa-search%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252FEMAIL%250A%253Cdiv%2520class%253D%2522%2520input%2522%253E%2520%250A%2520%253Cdiv%2520class%253D%2522email-input%2522%253E%2520%253Cspan%2520class%253D%2522email-icon%2522%253E%253Ci%2520class%253D%2522fas%2520fa-envelope%2522%253E%253C%252Fi%253E%253C%252Fspan%253E%2520%253Cinput%2520type%253D%2522email%2522%2520class%253D%2522form-control%2522%2520%2520id%253D%2522email%2522%2520placeholder%253D%2522ANAKYA%2540XYZ.com%2522%2520%253E%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A%250A%252F%252FCHECKBOX%250A%253Cdiv%2520class%253D%2522%2520input%2522%253E%2520%250A%2520%2520%253Cdiv%2520class%253D%2522input-checkbox%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522checkbox-1%2522%253E%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522HTML%2522%2520class%253D%2522form-%2520control%2522%253E%253Clabel%2520for%253D%2522HTML%2522%253EHTML%253C%252Flabel%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522checkbox-2%2522%253E%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522CSS%2522%2520class%253D%2522form-control%2522%253E%253Clabel%2520for%253D%2522CSS%2522%253ECSS%253C%252Flabel%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522checkbox-3%2522%253E%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522JAVASCRIPT%2522%2520class%253D%2522form-control%2522%253E%253Clabel%2520for%253D%2522JAVASCRIPT%2522%253EJAVASCRIPT%253C%252Flabel%253E%253C%252Fdiv%253E%250A%253Cdiv%2520class%253D%2522checkbox-3%2522%253E%253Cinput%2520type%253D%2522checkbox%2522%2520id%253D%2522disabled%2522%2520class%253D%2522form-control%2522%2520disabled%253E%253Clabel%2520for%253D%2522disabled%2522%253EDisabled%253C%252Flabel%253E%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E"
+                style="width: 737px; height: 810px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <h4 class="sub-heading-3">
+                Many Types Of Input Yet To Be Updated...
+            </h4>
+            <hr style="margin: 5px;">
+        </div>
         <div class="navigate">
-            <a href="#"><i class="fas fa-arrow-left"></i>  Buttons</a>
-            <a href="#">Badges <i class="fas fa-arrow-right"></i></a>
+            <a href="./avtar.html"><i class="fas fa-arrow-left"></i>  Avtar</a>
+            <a href="./modal.html">Modals <i class="fas fa-arrow-right"></i></a>
         </div>
     </div>    
 

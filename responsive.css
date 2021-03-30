@@ -18,12 +18,43 @@
     }
     .nav-items a{
         font-size: 1.7rem;
-        
+    }
+    .tag-line{
+        font-size: 2.2rem;
+        margin-top: 2.6rem;
+    }
+
+    .btn-section{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .btn-section .download{
+        margin-bottom: 2rem;
     }
     
 }
 
-@media all and (max-width:446px){
+@media all and (max-width:614px){
+   .banner{
+       align-items: center;
+   }
+    .tag-line{
+        font-size: 1.9rem;
+    }
+
+}
+
+@media all and (max-width:540px){
+    .explore-btn{
+        display: none;
+    }
+    .navs li{
+        padding: 0.6rem;
+    }
+}
+
+
+@media all and (max-width:456px){
      html{
          max-width: 100%;
      }
@@ -39,19 +70,24 @@
         min-width: 35%;
     } */
     .navs li{
-        padding-right: 1.2rem;
+        padding-right: 0.7rem;
     }
     .nav-items a{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
-
+    .navbar{
+        margin: 0.4rem;
+    }
+    .nav-brand{
+        margin: 0.4rem;
+    }
     .banner{
-        margin: 2.2rem;
-        padding: 0;
+      padding: 1.6rem;
+      margin-top: 2rem;
     }
 
     .tag-line{
-        font-size: 2.2rem;
+        font-size: 2rem;
         margin-top: 2.2rem;
     }
     .dummy{
@@ -68,4 +104,31 @@
         font-size: 1.4rem;
    }
    
+}
+
+@media all and (max-width:360px){
+    #navigation{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-brand{
+        margin: 0.4rem 0rem 0rem 0rem;
+    }
+    .navbar{
+        margin: 0px;
+    }
+    .banner{
+        padding: 1rem;
+    }
+
+    .navs{
+        justify-content: center;
+    }
+    .tag-line{
+        font-size: 1.5rem;
+        line-height: 2.5rem;
+    }
+    .download-btn{
+        text-align: left;
+    }
 }

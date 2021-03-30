@@ -1,0 +1,181 @@
+.active{
+    background-color: rgb(156 148 148 / 15%);
+    backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
+    border-top-left-radius: 1.5rem;
+    border-bottom-left-radius:1.5rem ;
+    color:var(--banner-text-color) !important;
+}
+
+/*                             CONTENT BOX                    */
+
+.content-box .introduction , .badge-component-container {
+    font-size: 1.55rem;
+    padding: 1.2rem;
+    width: inherit;
+    margin: 0.8rem;
+    border-radius: 10px;
+    background: #F5F6F7;
+    width: inherit;
+    box-shadow: 0px 1px 5px 2px rgb(0 0 0 / 46%);
+    -webkit-box-shadow: 0px 1px 5px 2px rgb(0 0 0 / 46%);
+    -moz-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.46);
+}
+
+.content-box .badge-component-container .badge-container{
+    padding: 1rem;
+    margin: 1rem 0rem 1rem 0rem;
+    background-color: transparent;
+    width: 100%;
+    border-radius: 0.4rem;
+    background-color: #E7E8E8;
+    border-radius:8px ;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.46);
+   -webkit-box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.46);
+   -moz-box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.46);
+}
+
+.content-box .introduction-text{
+    padding-top:1rem ;
+    line-height: 1.3;
+    word-spacing: 2.5px;
+    font-size: 1.3rem ;
+    font-weight: 500;
+ }
+
+.content-box  .iframe-section{
+    padding: 0.9rem 0rem 0.9rem 0rem;
+    width: inherit;
+}
+.content-box  .iframe-section > iframe{
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+
+.content-box .sub-heading-1,.sub-heading-2,.sub-heading-3,.sub-heading-4{
+    max-width: 100%;
+    font-size: 2.2rem;
+    color: var(--main-primary-color);
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+
+.badge{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: inherit;
+    padding: 0.8rem;
+}
+
+.online-profile-image,.offline-profile-image,.dnd-profile-image{
+    position: relative;
+}
+
+.avtar{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 0.7rem;
+}
+
+.online-profile,.offline-profile,.dnd-profile{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: var(--success-hover);
+    position: absolute;
+    bottom: 18px;
+    right: 13px;
+    border:2px solid white;
+}
+
+.offline-profile{
+    background-color: var(--secondary);
+}
+
+.dnd-profile{
+    background-color: var(--danger);
+}
+
+.badge-1,.badge-2,.badge-3,.badge-4,.badge-5{
+    position: relative;
+    color: var(--main-primary-color);
+    cursor: pointer;
+}
+/*                         Shopping Badges                  */
+.cart-quantity{
+    position: absolute;
+    top: -22px;
+    right: -12px;
+    color: var(--banner-text-color);
+}
+
+.reward-quantity{
+    position: absolute;
+    top: -22px;
+    right: -21px;
+    color: var(--banner-text-color);
+}
+
+/*                        Social Badges                         */
+
+.notification-quantity{
+    position: absolute;
+    top: -13px;
+    right: -7px;
+    color: var(--banner-text-color);
+    font-size: 1rem;
+}
+.request-quantity{
+    position: absolute;
+    top: -12px;
+    right: -9px;
+    color: var(--banner-text-color);
+    font-size: 1rem;
+}
+.like-quantity{
+    position: absolute;
+    top: -12px;
+    right: -17px;
+    color: var(--banner-text-color);
+    font-size: 1rem;
+}
+.comments-quantity{
+    position: absolute;
+    top: -12px;
+    right: -17px;
+    color: var(--banner-text-color);
+    font-size: 1rem;
+}
+.saved-quantity{
+    position: absolute;
+    top: -15px ;
+    right: -18px;
+    color: var(--banner-text-color);
+    font-size: 1rem;
+}
+
+
+
+ /*                                  NAVIGATE                                     */
+ /* .navigate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:1rem ;
+    color: var(--main-primary-color);
+}
+
+.navigate a{
+    text-decoration: none;
+    font-family: var(--main-font);
+    color: var(--main-primary-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.navigate i{
+    padding: 0rem 0.2rem 0rem 0.2rem;
+} */

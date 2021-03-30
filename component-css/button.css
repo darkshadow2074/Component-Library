@@ -1,237 +1,27 @@
-*{
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
-}
 
-:root{
-    --banner-text-color: #dc2626;
-    --main-primary-color: #00008b;
-    --main-font : 'Raleway', sans-serif;
-    --primary:#1e8be4;
-    --secondary:#778899;
-    --success:#129212;
-    --danger: #ca160d;
-    --warning:#FFCC00;
-    --info : indigo;
-    --light: whitesmoke;
-    --dark: #000000;
-  
-    --primary-hover:#106fbd;
-    --secondary-hover:#697683;
-    --success-hover:#017201;
-    --danger-hover: #b32922;
-    --warning-hover:#d6ab00;
-    --info-hover : rgb(55, 2, 94);
-    --light-hover: rgb(212, 201, 201);
-    --dark-hover: #000000;
-}
-
-
-
-/*                             SIDEBAR                     */
-
-.heading{
-    width: 100%;
-    padding: 0.9rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-}
-.heading .brand-name img{
-    width: 160px;
-}
-
-.sideBar{
-    width: 22.4rem;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    height: 100%;
-    overflow-y:auto;
-    overflow-x: hidden;
-    /* background-color: #fbb034; */
-    /* background-color: #E3E3E3; */
-    /* background-image: linear-gradient(315deg, #fbb034 0%, #ffdd00 74%); */
-    background-image: linear-gradient(to right top, #fadadd, #f6e0ec, #efe7f5, #ebeef9, #ecf3f9);
-    display: flex;
-    flex-direction: column;
-}
-
-.heading .docs-link > a{
-     text-decoration: none;
-     font-family: var(--main-font);
-     font-weight: 600;
-     font-size: 0.9rem;
-     color: var(--main-primary-color);
-}
-
-.sideBar hr{
-    width:22.6rem;
-    font-weight: 200;
-    display: block;
-    margin: 0.2rem auto;
-    color: var(--main-primary-color);
-    height: 0.4px;
-    opacity: 0.4;
-}
-
-.installation{
-   padding: 1.3rem;
-}
-.installation a{
-    text-decoration: none;
-    font-size: 1.42rem;
-    color: var(--main-primary-color);
-    font-family: var(--main-font);
-    font-weight: 700;
-}
-.installation a:hover{
-    color: var(--banner-text-color);
-}
-.nav-items{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;  
-    width: 100%;
-    margin: 0rem 0rem 0.2rem 0.4rem;
-    flex: 1;
-}
-.nav-items .buttons,.alerts,.badges,.avtars,.inputs,.modals,.cards{
-    padding: 1rem;
-    width: 100%;
-    cursor: pointer;
-}
-.nav-items a{
-    text-decoration: none;
-    font-family: var(--main-font);
-    font-size: 1.3rem;
-    font-weight: 600;
-    color: var(--main-primary-color);
-}
-
-.nav-items .buttons:hover{
-    background-color: rgb(113 54 54 / 15%);
-    backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
-    border-top-left-radius: 1.5rem;
-    border-bottom-left-radius:1.5rem ;
-    color:var(--banner-text-color);
-}
-.nav-items .alerts:hover{
-    background-color: rgb(113 54 54 / 15%);
-    backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
-    border-top-left-radius: 1.5rem;
-    border-bottom-left-radius:1.5rem ;
-    color:var(--banner-text-color);
-}
-
-.nav-items .badges:hover{
-    background-color: rgb(113 54 54 / 15%);
-    backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
-    border-top-left-radius: 1.5rem;
-    border-bottom-left-radius:1.5rem ;
-    color:var(--banner-text-color);
-}
-
-.nav-items .avtars:hover{
-    background-color: rgb(113 54 54 / 15%);
-    backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
-    border-top-left-radius: 1.5rem;
-    border-bottom-left-radius:1.5rem ;
-    color:var(--banner-text-color);
-}
-
-.nav-items .inputs:hover{
-    background-color: rgb(113 54 54 / 15%);
-    backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
-    border-top-left-radius: 1.5rem;
-    border-bottom-left-radius:1.5rem ;
-    color:var(--banner-text-color);
-}
-
-.nav-items .modals:hover{
-    background-color: rgb(113 54 54 / 15%);
-    backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
-    border-top-left-radius: 1.5rem;
-    border-bottom-left-radius:1.5rem ;
-    color:var(--banner-text-color);
-}
-
-.nav-items .cards:hover{
-    background-color: rgb(113 54 54 / 15%);
+.active{
+    background-color: rgb(156 148 148 / 15%);
     backdrop-filter: blur(19px) saturate(100%) contrast(45%) brightness(130%);
     border-top-left-radius: 1.5rem;
     border-bottom-left-radius:1.5rem ;
     color:var(--banner-text-color) !important;
-
-}
-.copy{
-    position: relative;
-    width: 100%;
-    margin-top: 0.8;
-    margin-bottom: 0px;
-    border-top: 0.4px solid  #ad9aa3;
-}
-.footer{
-    position: relative;
-    bottom: 0px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.9rem 2rem;
-}
-.designedBy{
-    color: var(--banner-text-color);
-    line-height: 1.3;   
-    font-family: var(--main-font);
-    font-weight: 600;
-    font-size: 0.8rem; 
-    text-align: left;
-}
-.footer a{
-    text-decoration: none;
-    color: var(--main-primary-color);
-}
- .name{
-    color: var(--main-primary-color);
-    font-weight: 600;
-}
-.footer .github a{
-    font-size: 1.1rem;
-}
-
-.active{
-    color: var(--banner-text-color) !important;
 }
 
 /*                             CONTENT BOX                    */
 
 
-.content-box{
-    margin-left:22.5rem ;
-    background: #FFFAFA;
-    height: 100%;
-    padding: 2.5rem;
-    font-family: var(--main-font);
-    font-weight: 600;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-content: space-around;
-}
-
-.content-box h1,h2,h3,h4{
-   font-family: var(--main-font);
-   font-weight: 600;
-}
 
 .content-box .introduction , .installation-guide,.button-component-container {
     font-size: 1.55rem;
     padding: 1.2rem;
     width: inherit;
+    margin: 0.8rem;
+    border-radius: 10px;
+    background: #F5F6F7;
+    width: inherit;
+    box-shadow: 0px 1px 5px 2px rgb(0 0 0 / 46%);
+    -webkit-box-shadow: 0px 1px 5px 2px rgb(0 0 0 / 46%);
+    -moz-box-shadow: 0px 1px 5px 2px rgba(0,0,0,0.46);
 }
 .content-box .introduction-text{
    padding-top:1rem ;
@@ -241,12 +31,6 @@
    font-weight: 500;
 }
 
-.content-box .main-heading{
-    max-width: 100%;
-    font-size: 2.5rem;
-    color: var(--main-primary-color);
-
-}
 
 .content-box .introduction-text,.installation-text .download-icon a{
     font-size: 1.2rem;
@@ -273,10 +57,14 @@
 .content-box .button-component-container .btn-container{
     padding: 0.9rem;
     margin: 1rem 0rem 1rem 0rem;
-    background-color: beige;
+    background-color: #E7E8E8;
+    border-radius:8px ;
+    box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.46);
+   -webkit-box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.46);
+   -moz-box-shadow: 1px 1px 5px 1px rgba(0,0,0,0.46);
     width: 100%;
 }
-.content-box .button-component-container .btn-container .simple-btn{
+ .simple-btn{
     width: 7rem;
     min-width: 4rem;
     height: 3rem;
@@ -296,7 +84,7 @@
     overflow-x: auto;
 }
 
-.content-box .button-component-container .btn{
+.btn{
     width: 5rem;
     min-width: 3rem;
     height: 2rem;
@@ -317,94 +105,94 @@
 
 /*                      Contained Button                           */
 
-.content-box .button-component-container .btn-primary{
+.btn-primary{
     background-color: var(--primary);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-secondary{
+.btn-secondary{
     background-color: var(--secondary);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-success{
+.btn-success{
     background-color: var(--success);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-danger{
+.btn-danger{
     background-color:var(--danger);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-warning{
+.btn-warning{
     background-color: var(--warning);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-info{
+.btn-info{
     background-color: var(--info);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-light{
+.btn-light{
     background-color: var(--light);
     color: var(--dark);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-dark{
+.btn-dark{
     background-color: var(--dark);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-link{
+.btn-link{
     color: var(--info);
     text-decoration: underline;
     margin: 0.3rem;
     background-color: transparent;
 }
 
-.content-box .button-component-container .btn-primary:hover{
+.btn-primary:hover{
     background-color: var(--primary-hover);
     color: white;
  
 }
-.content-box .button-component-container .btn-secondary:hover{
+.btn-secondary:hover{
     background-color: var(--secondary-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-success:hover{
+.btn-success:hover{
     background-color: var(--success-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-danger:hover{
+.btn-danger:hover{
     background-color:var(--danger-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-warning:hover{
+.btn-warning:hover{
     background-color: var(--warning-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-info:hover{
+.btn-info:hover{
     background-color: var(--info-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-light:hover{
+.btn-light:hover{
     background-color: var(--light-hover);
     color: var(--dark);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-dark:hover{
+.btn-dark:hover{
     background-color: var(--dark);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-link:hover{
+.btn-link:hover{
     color: var(--info-hover);
     text-decoration: underline;
     margin: 0.3rem;
@@ -413,83 +201,83 @@
 
 /*                                            Outline Button Components                                           */
 
-.content-box .button-component-container .btn-outline-primary{
+.btn-outline-primary{
     color: var(--primary);
     border: 1px solid var(--primary);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-secondary{
+.btn-outline-secondary{
     color: var(--secondary);
     border: 1px solid var(--secondary);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-success{
+.btn-outline-success{
     color:var(--success);
     border: 1px solid var(--success);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-danger{
+.btn-outline-danger{
     color: var(--danger);
     border: 1px solid var(--danger);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-warning{
+.btn-outline-warning{
     color: var(--warning);
     border: 1px solid var(--warning);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-info{
+.btn-outline-info{
     color: var(--info);
     border: 1px solid var(--info);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-light{
+.btn-outline-light{
     color: var(--dark);
     border: 1px solid var(--light);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-dark{
+.btn-outline-dark{
     color: var(--dark);
     border: 1px solid var(--dark);
     margin: 0.3rem;
 }
 
-.content-box .button-component-container .btn-outline-primary:hover{
+.btn-outline-primary:hover{
     background-color: var(--primary-hover);
     color: white;
  
 }
-.content-box .button-component-container .btn-outline-secondary:hover{
+.btn-outline-secondary:hover{
     background-color: var(--secondary-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-success:hover{
+.btn-outline-success:hover{
     background-color: var(--success-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-danger:hover{
+.btn-outline-danger:hover{
     background-color:var(--danger-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-warning:hover{
+.btn-outline-warning:hover{
     background-color: var(--warning-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-info:hover{
+.btn-outline-info:hover{
     background-color: var(--info-hover);
     color: white;
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-light:hover{
+.btn-outline-light:hover{
     background-color: var(--light-hover);
     color: var(--dark);
     margin: 0.3rem;
 }
-.content-box .button-component-container .btn-outline-dark:hover{
+.btn-outline-dark:hover{
     background-color: var(--dark);
     color: white;
     margin: 0.3rem;
@@ -497,7 +285,7 @@
 
 /*                                           Large Button Components                                           */
 
-.content-box .button-component-container .btn-lg-primary{
+.btn-lg-primary{
     background-color: var(--primary);
     color: white;
     margin: 0.3rem;
@@ -505,7 +293,7 @@
     height: 4rem;
 }
 
-.content-box .button-component-container .btn-md-primary{
+.btn-md-primary{
     background-color: var(--primary);
     color: white;
     margin: 0.3rem;
@@ -513,7 +301,7 @@
     height: 3rem;
 }
 
-.content-box .button-component-container .btn-sm-primary{
+.btn-sm-primary{
     background-color: var(--primary);
     color: white;
     margin: 0.3rem;
@@ -521,46 +309,51 @@
     height: 3rem;
 }
 
-.content-box .button-component-container .btn-lg-outline-primary{
+.btn-lg-outline-primary{
     color: var(--primary);
     border: 1px solid var(--primary);
     margin: 0.3rem;
     width: 10rem;
     height: 4rem;
+    background-color: inherit;
 }
 
-.content-box .button-component-container .btn-md-outline-primary{
+.btn-md-outline-primary{
     color: var(--primary);
     border: 1px solid var(--primary);
     margin: 0.3rem;
     width: 7rem;
     height: 3rem;
+    background-color: inherit;
 }
 
-.content-box .button-component-container .btn-sm-outline-primary{
+.btn-sm-outline-primary{
     color: var(--primary);
     border: 1px solid var(--primary);
     margin: 0.3rem;
     width: 5rem;
     height: 3rem;
+    background-color: inherit;
 }
 
-.content-box .button-component-container .btn-lg-outline-primary:hover{
+.btn-lg-outline-primary:hover{
     background-color: var(--primary-hover);
     color: white;
 }
 
-.content-box .button-component-container .btn-md-outline-primary:hover{
+.btn-md-outline-primary:hover{
     background-color: var(--primary-hover);
     color: white;
 }
 
-.content-box .button-component-container .btn-sm-outline-primary:hover{
+.btn-sm-outline-primary:hover{
     background-color: var(--primary-hover);
     color: white;
 }
 
-.navigate{
+
+/*                             Navigate                                   */
+/* .navigate{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -578,5 +371,5 @@
 
 .navigate i{
     padding: 0rem 0.2rem 0rem 0.2rem;
-}
+} */
 

@@ -24,15 +24,6 @@
     .content-box .introduction-text,.installation-text{
         font-size: 1.5rem ;
      }
- 
-       .sub-heading-1,.sub-heading-2,.sub-heading-3,.sub-heading-4{
-            max-width: 100%;
-            font-size: 1.4rem;
-            color: var(--main-primary-color);
-            padding-top: 1rem;
-            padding-bottom: 0.5rem;
-        }
-
 }
 
 @media all and (max-width:320px){
